@@ -1,0 +1,41 @@
+button {
+background-color: white;
+border: 6px solid black;
+border-radius: 10px;
+width: 150px;
+}
+
+button:active {
+  border-color:greenyellow;
+}
+button:focus {
+  box-shadow: 2px 2px 5px greenyellow;
+}
+
+
+body {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fluid {
+  background-color: black;
+  width: 20rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 14;
+  border: 6px solid greenyellow;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+h1 {
+color: greenyellow;
+background-color: black;
+}
